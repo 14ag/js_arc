@@ -1,7 +1,7 @@
 function println(x){
     console.log(x);
 }
-function
+// function
 
 // //nested if practice
 // var lat=37.5;
@@ -62,3 +62,7 @@ for (var i = 0; i < rows; i++) {
 // The code relies on this procedure:
 // fillPixel(row, column, color) : Lights up the pixel at the given row and column with the given color (specified as a string). The top row is row 1 and the left-most column is column 1.
 // What will the output of their program look like?
+
+
+
+// 750, 77, 737, 714, 672, 668, 655, 634, 629, 618, 615, 610
