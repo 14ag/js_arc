@@ -1,10 +1,11 @@
+import { println } from "./utils.js";
 function outer(){
-    let var=0;
+    let foo=0;
     return function inner(){
-        var++;
-        return var;
+        foo++;
+        return foo;
     };
 }
 const blt=outer();
-console.log(blt());
-console.log(blt());
+println(blt());
+println(blt());
