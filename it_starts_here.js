@@ -1,7 +1,3 @@
-function println(x){
-    console.log(x);
-}
-// function
 
 // //nested if practice
 // var lat=37.5;
