@@ -21,5 +21,10 @@ import { println } from "./utils.js";
 
 //==========================================================================================================
 let numbes=[1,2,3,4,5];
-numbes.push(thisItem)
-println(numbes)
+numbes.push("thisItem");
+println("pushed'thisitem': "+numbes);
+numbes.pop() // removes the last item in the array
+println("mapped: "+numbes.map(x=>x*2));
+numbes.forEach((x)=>println(x));
+println("even numbers: "+numbes.filter(x=>x%2===0));
+numbes.shift(); //removes the first item in the array
