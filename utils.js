@@ -28,11 +28,14 @@ export function binar_search(array, targetValue) {
     println(count);
     return -1;
 }
+
 export function to_binary(value){
-    let x;
-    for (let i = 0; i < array.length; i++) {
-        
-        binary+=x
+    let b_inary="";
+    let x=0;
+    while (value>0){
+        x=value%2;
+        value=Math.floor(value/2);
+        b_inary=x+b_inary;
     }
-    return binary;
+    return b_inary;
 }
