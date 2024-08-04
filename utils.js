@@ -3,7 +3,7 @@ export function println(x){
     console.log(x);
 }
 
-export function binar_search(array, targetValue) {
+export function binar_search(array, targetValue){
 	var min = 0;
 	var max = array.length - 1;
     var guess;
@@ -38,4 +38,11 @@ export function to_binary(value){
         b_inary=x+b_inary;
     }
     return b_inary;
+}
+
+export function row_entry(x="noll"){
+    let entry="";
+    let empty_space="xxxxxxxxxxxxxx";
+    entry=empty_space.substring(0,empty_space.length-x.length);
+    return entry;
 }

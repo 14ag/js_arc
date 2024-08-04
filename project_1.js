@@ -3,13 +3,25 @@
   and the binary representations of array lengths for arrays with lengths 1 to 10. in a worst case scernario.
   it uses rows "array_length" "binary_representation" "number_of_bits" "comparisons".
 */
-import { println } from "./utils";
-import { binar_search } from "./utils";
+import { println,binar_search,to_binary } from "./utils";
 
-println("array_length  binary_representation  number_of_bits  comparisons")
-println("------------  ---------------------  --------------  -----------")
+var array_lenth,binary_representation,bit_count,comparisons_count;
+
+println("array_length  bin_rep      number_of_bits  comparisons")
+println("------------  ------------  ------------  ------------")
+const sample=[]
 for (i=1;i<11;i++){
     //generate arrays
+    sample=sample.push(i);
+    // array_lenth
+    array_lenth=sample.length;
+    // binary representation of array lenth
+    binary_representation=to_binary(sample.length);
+    // number of bits in binary representation
+    bit_count=binary_representation.length
+    // get comparison count
+    comparisons_count=binar_search(sample,sample[sample.length-1]);
+
 
 }
 
