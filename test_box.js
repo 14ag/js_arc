@@ -1,2 +1,2 @@
-import { println,to_binary } from "./utils";
-println(to_binary(12));
+import { println,row_entry } from "./utils";
+println(row_entry(1));

@@ -41,8 +41,8 @@ export function to_binary(value){
 }
 
 export function row_entry(x="noll"){
-    let entry="";
     let empty_space="xxxxxxxxxxxxxx";
-    entry=empty_space.substring(0,empty_space.length-x.length);
+    let entr=empty_space.substring(0,empty_space.length-x.length);
+    let entry=entr.concat(x)
     return entry;
 }
