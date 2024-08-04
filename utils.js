@@ -31,7 +31,6 @@ export function binar_search(array, targetValue){
 
 export function to_binary(value){
     let b_inary="";
-    let x=0;
     while (value>0){
         b_inary=Number(value%2)+b_inary;
         value=Math.floor(value/2);

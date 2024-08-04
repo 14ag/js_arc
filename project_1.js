@@ -6,11 +6,16 @@
 import { println,binar_search,to_binary,row_entry } from "./utils";
 
 var array_lenth,binary_representation,bit_count,comparisons_count;
-var range_start=1;
-var range_stop=128;
+var range_start=1579995;
+var range_stop=1580000;
+var sample=new Array()
+
+for (let j=1;j<range_start;j++){
+  sample.push(j);
+  }
 println("array_length  bin_rep      number_of_bits  comparisons")
 println("------------  ------------  ------------  ------------")
-var sample=new Array()
+  
 for (let i=range_start;i<range_stop+1;i++){
     //generate arrays
     sample.push(i);
@@ -25,4 +30,3 @@ for (let i=range_start;i<range_stop+1;i++){
     println(row_entry(array_lenth)+"  "+row_entry(binary_representation)+"  "+row_entry(bit_count)+"  "+row_entry(comparisons_count))
 
 }
-
