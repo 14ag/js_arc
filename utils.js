@@ -12,11 +12,11 @@ export function binar_search(array, targetValue){
     while(min<=max){
         guess = min+ Math.floor((max-min)*0.5);
         count++;
-        println(guess);
+        // println(guess);
         
         if(array[guess]===targetValue){
-            println(count);
-            return guess;
+            return count;
+            // return guess;
         } 
         else if (array[guess]<targetValue){
            min=guess+1;
@@ -25,8 +25,8 @@ export function binar_search(array, targetValue){
             max=guess-1;
         }
     }
-    println(count);
-    return -1;
+    return count;
+    // return -1;
 }
 
 export function to_binary(value){
