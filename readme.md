@@ -13,7 +13,7 @@ A table with columns :Array size, Binary representation, Number of bits, Cycle  
 
 
 
-Test_box.js iko na sample code ya ku test the new row_entry function in utils_v2.js
+Test_box.js contains sample code for testing the new row_entry function in utils_v2.js
 
 Please help with the utils_v2.js
 The idea is to make the values in the proj_1 table align to the right side of the column. 
@@ -26,7 +26,7 @@ I have tried different type conversation like:
 return entry.toString
 using for...of loop on the entry[]
 foreach method
-Lakini wapi
+to no avail
 
 
 using strings.toString before the line with reduce method breaks the throws error on this line
