@@ -1,4 +1,4 @@
-import { println,to_binary } from "./utils";
+import { println,row_entry,to_binary } from "./utils";
 
-
-println(to_binary(12));
+// const words = "apple", "banana", "cherry", "date";
+println(row_entry("-","apple", "banana", "cherry", "date"));
