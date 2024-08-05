@@ -54,7 +54,7 @@ export function row_entry(s_pace=" ",...strings) {
     console.log(strings)
     // let entry="";
 
-    let g=strings
+    let x=strings
     for (let string of strings){
         // console.log(string)
         // entry=en" "+string)
