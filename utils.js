@@ -1,9 +1,9 @@
 // this is an equivalent to echo 
-export function println(x){
+export function println(x){ //alias for console.log
     console.log(x);
 }
 
-export function binar_search(array, targetValue){
+export function binar_search(array, targetValue){ //returns number of cycles ina binary search
 	var min = 0;
 	var max = array.length - 1;
     var guess;
@@ -29,7 +29,7 @@ export function binar_search(array, targetValue){
     // return -1;
 }
 
-export function to_binary(value){
+export function to_binary(value){ //converts value to binary
     let b_inary="";
     while (value>0){
         b_inary=Number(value%2)+b_inary;
@@ -44,4 +44,10 @@ export function row_entry(x="noll"){
     if (x.length>place_holder.length){return x;}
     let entry=place_holder.slice(0,place_holder.length-x.length)+x;
     return entry;
+}
+
+export function s_wap(array,x,y){ //swaps x and y items in an array
+    let tmp=array[x];
+    array[x]=array[y];
+    array[y]=tmp;
 }
