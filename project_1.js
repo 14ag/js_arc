@@ -6,8 +6,8 @@
 import { println,binar_search,to_binary,row_entry } from "./utils";
 
 var array_lenth,binary_representation,bit_count,comparisons_count;
-var range_start=1579995;
-var range_stop=1580000;
+var range_start=998;
+var range_stop=1000;
 var sample=new Array()
 
 for (let j=1;j<range_start;j++){

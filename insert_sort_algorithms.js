@@ -11,16 +11,19 @@ starting at rightIndex and proceeding until an element less than or equal to val
 or the beginning of the array is reached. Once sufficient space is created, the value can be inserted into its correct position.
 Adhere to the style and structure of the provided hint code when implementing the function. */
 
-var insert = function(array, rightIndex, value) {
-    for (var j=rightIndex; j>=0 && (value<array[j]); j--){
-            // println(j)
-            array[j+1]=array[j];
-            // println(array);
-            
-        }
-        // println(j)
-        array[j+1]=value;
-return array;
+var insert = function (array, rightIndex, value) {
+    for (var j = rightIndex; j >= 0 && value < array[j]; j--) {
+        array[j + 1] = array[j];
+    }
+
+    array[j + 1] = value;
+    return array;
+};
+
+var insertionSort = function (array) {
+    for (var i = 0; i < array.length; i++) {
+        insert(array, i, array[i]);
+    }
 };
 
 var array = [3, 5, 7, 11, 13, 2, 9, 6];
@@ -38,3 +41,12 @@ println("")
 insert(array, 6, 6);
 println("Array after inserting 6:  " + array);
 //Program.assertEqual(array, [2, 3, 5, 6, 7, 9, 11, 13]);
+
+// var array = [22, 11, 99, 88, 9, 7, 42];
+// insertionSort(array);
+// println("Array after sorting:  " + array);
+
+//Program.assertEqual(array, [7, 9, 11, 22, 42, 88, 99]);
+console.log(array);
+
+
