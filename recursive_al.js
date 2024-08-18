@@ -1,5 +1,17 @@
 import { println } from "./utils";
 
+/*
+In this challenge, you'll make it so the isPalindrome() function returns true
+ if the provided string is a palindrome, and false otherwise.
+
+Start by implementing the first base case:
+if the length of the string is 0 or 1, isPalindrome() should return true.
+
+Once implemented, uncomment the first Program.assertEqual() for isPalindrome("a")
+ at the bottom to verify that the test assertion passes.
+*/
+
+
 // Returns the first character of the string str
 var firstCharacter = function(str) {
     return str.slice(0, 1);
@@ -18,11 +30,16 @@ var middleCharacters = function(str) {
 
 var isPalindrome = function(str) {
     // base case #1
-    if ( <= ) {
-        return ;
+    if ( str.length <= 1 ) {
+        return true ;
+        // base case #2
+    } else if (firstCharacter(str)!==lastCharacter(str)) {
+        return false;
+    } else {
+        // recursive case
+        str=middleCharacters(str);
+        return isPalindrome(str);
     }
-    // base case #2
-    // recursive case
 };
 
 var checkPalindrome = function(str) {
