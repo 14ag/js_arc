@@ -1,4 +1,4 @@
-import { println } from "./utils";
+import { println } from "../utils";
 
 /*
 In this challenge, you'll make it so the isPalindrome() function returns true

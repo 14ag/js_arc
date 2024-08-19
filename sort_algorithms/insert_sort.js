@@ -1,4 +1,4 @@
-import { println } from "./utils";
+import { println } from "../utils";
 
 /* Implement the insert function to correctly integrate a given value into a sorted array.
 The insert function receives three inputs: an array,

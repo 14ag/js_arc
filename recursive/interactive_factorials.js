@@ -1,4 +1,4 @@
-import { println } from "./utils";
+import { println } from "../utils";
 
 /*      1.0
 Finish the provided factorial function, so that it returns the value n!.

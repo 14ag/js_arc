@@ -1,4 +1,4 @@
-import {println,s_wap } from "./utils";
+import {println,s_wap } from "../utils";
 /*
 Complete the indexOfMinimum function. This function should:
 
