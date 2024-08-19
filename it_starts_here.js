@@ -31,8 +31,8 @@ import { println } from "./utils.js";
 //  Change it to 5 rows of 10 snowmen, 
 //   then 10 rows of 5 snowmen.
 
-var rows=5;
-var snowmenCount=10; //snowmen per row or columns
+var rows = 5;
+var snowmenCount = 10; //snowmen per row or columns
 for (var i = 0; i < rows; i++) {
     var snowmen = "";
     for (var j = 0; j < snowmenCount; j++) {

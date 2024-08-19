@@ -20,12 +20,12 @@ import { println } from "./utils.js";
 // println(arrow(8))
 
 //==========================================================================================================
-let numbes=[1,2,3,4,5];
+let numbes = [1, 2, 3, 4, 5];
 numbes.push("thisItem");
-println("pushed'thisitem': "+numbes);
+println("pushed'thisitem': " + numbes);
 numbes.pop() // removes the last item in the array
-println("mapped: "+numbes.map(x=>x*2));
-numbes.forEach((x)=>println(x));
-println("even numbers: "+numbes.filter(x=>x%2===0));
+println("mapped: " + numbes.map(x => x * 2));
+numbes.forEach((x) => println(x));
+println("even numbers: " + numbes.filter(x => x % 2 === 0));
 numbes.shift(); //removes the first item in the array
 

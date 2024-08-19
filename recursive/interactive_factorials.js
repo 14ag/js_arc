@@ -29,20 +29,20 @@ Once implemented, uncomment the Program.assertEqual() for factorial(0) at the bo
 */
 
 //      2.0
-var factorial = function(n) {
+var factorial = function (n) {
     // base case:
-    if (n===0) {
+    if (n === 0) {
         return 1;
     }
-	
-	// recursive case:
-    return n*factorial(n-1);
-}; 
+
+    // recursive case:
+    return n * factorial(n - 1);
+};
 
 println("The value of 0! is " + factorial(0) + ".");
 println("The value of 5! is " + factorial(5) + ".");
 
-println("The value of 5! should be " + 5*4*3*2*1);
+println("The value of 5! should be " + 5 * 4 * 3 * 2 * 1);
 println("The value of 5! is " + factorial(5));
 println("The value of 0! should be 1");
 println("The value of 0! is " + factorial(0));
