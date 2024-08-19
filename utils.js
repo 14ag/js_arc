@@ -51,3 +51,11 @@ export function s_wap(array,x,y){ //swaps x and y items in an array
     array[x]=array[y];
     array[y]=tmp;
 }
+
+export function assertEqual(actual, expected) {
+    if (actual !== expected) {
+      throw new Error(`Expected ${expected}, but got ${actual}`);
+    }
+  }
+
+// export 
