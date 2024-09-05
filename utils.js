@@ -29,14 +29,22 @@ export function binar_search(array, targetValue){ //returns number of cycles ina
     // return -1;
 }
 
+
 export function to_binary(value){ //converts value to binary
-    let b_inary="";
-    while (value>0){
-        b_inary=Number(value%2)+b_inary;
-        value=Math.floor(value/2);
+    if (value === 0) {
+        return 0;
     }
-    return b_inary;
+    function b(value) {
+        if (!(value > 0)) {
+            return ""
+        }
+        return b(Math.floor(value / 2)) + (value % 2).toString();
+    }
+    return b(value) 
 }
+
+
+
 
 export function row_entry(x="noll"){
     x=x.toString()
