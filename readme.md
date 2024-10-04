@@ -28,13 +28,7 @@
 - Focuses on worst-case scenarios
 - Provides in-depth analysis of cycle counts during searches
 
-### 2. `utils_v2.js`
-🛠️ A powerful utility script
-- Formats outputs with precision
-- Current focus: Perfecting table alignments
-- Crucial for efficient data presentation
-
-### 3. `test_box.js`
+### 2. `test_box.js`
 🧪 Comprehensive testing suite
 - Ensures robustness of utility functions
 - Particularly tests `row_entry` from `utils_v2.js`
@@ -51,17 +45,6 @@ js_arc is not just a repository; it's a playground for:
 
 We invite you to join us in pushing the boundaries of what's possible with JavaScript in algorithmic contexts.
 
----
-
-## 🏋️ Current Challenge
-
-Our primary focus is on optimizing the table alignment function in `utils_v2.js`:
-- Currently functional but requires refinement
-- Aiming for precision in aligning values within dynamically generated tables
-
-Can you crack the code to perfect alignment? 🤔
-
----
 
 ## 🤝 Getting Involved
 

@@ -3,7 +3,7 @@
   and the binary representations of array lengths for arrays with lengths 1 to 10. in a worst case scernario.
   it uses rows "array_length" "binary_representation" "number_of_bits" "comparisons".
 */
-import { println, binar_search, to_binary, row_entry } from "../utils";
+import { println, binar_search, to_binary } from "../utils";
 import { f_table } from '../testbox/formatted_table';
 
 var array_lenth, binary_representation, bit_count, comparisons_count;
