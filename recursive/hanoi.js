@@ -842,15 +842,15 @@ var hanoi = (function () {
 
 var solveHanoi = function (numDisks, fromPeg, toPeg) {
     // base case:  no disks to move
-    if (numDisks === 0) {
+    if (numDisks === 0) { //1
         return;
     }
     // recursive case:
-    var sparePeg = hanoi.getSparePeg(fromPeg, toPeg);
-    solveHanoi(numDisks - 1, fromPeg, sparePeg);
-    hanoi.moveDisk(fromPeg, toPeg);
-    solveHanoi(numDisks - 1, sparePeg, toPeg);
+    var sparePeg = hanoi.getSparePeg(fromPeg, toPeg);    //2
+    solveHanoi(numDisks - 1, fromPeg, sparePeg);    //2
+    hanoi.moveDisk(fromPeg, toPeg);    //3
+    solveHanoi(numDisks - 1, sparePeg, toPeg);    //4
 };
 
-solveHanoi(5, "A", "B");
-Program.assertEqual(hanoi.isSolved("B"), true);
+solveHanoi(5, "A", "B");    //5
+Program.assertEqual(hanoi.isSolved("B"), true);    //5
