@@ -29,16 +29,22 @@ var merge = function (array, p, q, r) {
 
 // Takes in an array and recursively merge sorts it
 var mergeSort = function (array, p, r) {
-    // if () {
-    //     var  = ;
-    //     mergeSort(, , );
-    //     mergeSort(, , );
-    //     merge(, , , );
-    // }
+    if (p < r) {
+        var q = Math.floor((p + r) / 2);
+        mergeSort(array, p, q);
+        mergeSort(array, q + 1, r);
+        merge(array, p, q, r);
+    }
 
 };
 
+
 var array = [14, 7, 3, 12, 9, 11, 6, 2];
-mergeSort(array, 0, array.length - 1);
+mergeSort(array, 0, array.length-1);
 println("Array after sorting: " + array);
-//Program.assertEqual(array, [2, 3, 6, 7, 9, 11, 12, 14]);
+Program.assertEqual(array, [2, 3, 6, 7, 9, 11, 12, 14]);
+
+
+var array2 = [-3, 28, 15, -17, 42, 0, 9, -11, 33, 5];
+mergeSort(array2, 0, array2.length-1);
+Program.assertEqual(array2, [-17,-11,-3,0,5,9,15,28,33,42]);
