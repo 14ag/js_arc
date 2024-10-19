@@ -3,16 +3,16 @@ import { println } from "../utils";
 
 /*
 *
- * The mergeSort function should recursively sort the subarray array[p..r] i.e. after calling
- *  mergeSort(array,p,r) the elements from index p to index r of array should be sorted in ascending order.
+* The mergeSort function should recursively sort the subarray array[p..r] i.e. after calling
+      mergeSort(array,p,r) the elements from index p to index r of array should be sorted in ascending order.
 
-To remind you of the merge sort algorithm:
--If the subarray has size 0 or 1, then it's already sorted, and so nothing needs to be done.
--Otherwise, merge sort uses divide-and-conquer to sort the subarray.
+*  To remind you of the merge sort algorithm:
+    -If the subarray has size 0 or 1, then it's already sorted, and so nothing needs to be done.
+    -Otherwise, merge sort uses divide-and-conquer to sort the subarray.
 
-Use merge(array, p, q, r) to merge sorted sub arrays array[p..q] and array[q+1..r].
+ *   Use merge(array, p, q, r) to merge sorted sub arrays array[p..q] and array[q+1..r].
 
-Once implemented, uncomment the Program.assertEqual() at the bottom to verify that the test assertion passes.
+    Once implemented, uncomment the Program.assertEqual() at the bottom to verify that the test assertion passes.
  * 
  */
 
@@ -29,13 +29,12 @@ var merge = function (array, p, q, r) {
 
 // Takes in an array and recursively merge sorts it
 var mergeSort = function (array, p, r) {
-    if (p < r) {
-        var q = Math.floor((p + r) / 2);
+    if (p<r) {
+        var q = floor((p+r)/2);
         mergeSort(array, p, q);
-        mergeSort(array, q + 1, r);
+        mergeSort(array, q+1, r);
         merge(array, p, q, r);
     }
-
 };
 
 
