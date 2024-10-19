@@ -1,0 +1,1 @@
+in this project im going to generate a webpage from a js file. so help us all
