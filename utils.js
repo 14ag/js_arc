@@ -1,6 +1,6 @@
 // this is an equivalent to echo 
 export function println(x){ //alias for console.log
-    console.log(x);
+    console.log(`${x}`); //using backticks it can accept exxpressions
 }
 
 export function binar_search(array, targetValue){ //returns number of cycles ina binary search

@@ -1,4 +1,4 @@
-//figure out whatthe website does
+//figure out whatthe website does okay... a calculator
 
 //get elements by id class tag ... do query selector (all)
 
