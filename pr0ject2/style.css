@@ -1,11 +1,18 @@
 /* this is a style sheet */
+* {
+    align-items: center;
+    justify-items: center;
+    font-size: x-large;
+}
 head {
     font-kerning: auto;
 }
 
 body {
     font-kerning: auto;
+    background-color: #212121;
 }
+
 div {
-    
+    align-items: center;
 }
