@@ -2,33 +2,8 @@
 * {
     font-size: xx-large;
 }
-
-head {
-    font-kerning: auto;
-}
-
-body {
-    font-kerning: auto;
-    background-color: #212121;
-}
-
-#calc {
-    margin: auto;
-    width: 80%;
-}
-
-.r {
-    display: block;
-}
-
-.rr {
-    display: block;
-    margin: auto
-}
-
-.c {
-    display: inline-block;
-}
-.c2 button{
-    display:block
+.calculator{
+    height: 100%;
+    width: 100%;
+    justify
 }
