@@ -12,12 +12,23 @@ body {
     background-color: #212121;
 }
 
-#calc{
+#calc {
     margin: auto;
     width: 80%;
 }
 
-.c1 {
+.r {
     display: block;
 }
 
+.rr {
+    display: block;
+    margin: auto
+}
+
+.c {
+    display: inline-block;
+}
+.c2 button{
+    display:block
+}
