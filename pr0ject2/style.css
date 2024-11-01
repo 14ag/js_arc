@@ -1,6 +1,6 @@
 /* this is a style sheet */
 * {
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 head {
@@ -12,24 +12,12 @@ body {
     background-color: #212121;
 }
 
-div {
-    align-items: center;
-}
-
-.keypad {
-    /* display: ; */
-}
-
-.misc {
-    /* display: ; */
-}
-
-.operations {
-    /* display: ; */
-}
-
-#calc {
+#calc{
     margin: auto;
+    width: 80%;
+}
 
+.c1 {
+    display: block;
 }
 

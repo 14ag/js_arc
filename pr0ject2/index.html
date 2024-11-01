@@ -10,40 +10,40 @@
     <script src="app.js"></script>
     <div id="calc">
         <form action="" method="post">
-            <div>
+        <input value="" name=result type="textarea" rows="2">
+        <span class="c1">
+            <button class="operation" value="-" name="subtract">-</button>
+            <button class="operation" value="+" name="add">+</button>
+            <button class="operation" value="*" name="multiply">x</button>
+        </span>
+        <span class="c1">
+            <button value="7" name="7">7</button>
+            <button value="8" name="8">8</button>
+            <button value="7" name="9">9</button>
+        </span>
+        <span class="c1">
+            <button value="4" name="4">4</button>
+            <button value="5" name="5">5</button>
+            <button value="6" name="6">6</button>
+        </span>
 
-                <input value="" name=result type="textarea" rows="2">
-            </div>
-
-            <div class="keypad">
-                <button value="7" name="7">7</button>
-                <button value="8" name="8">8</button>
-                <button value="7" name="9">9</button><br>
-                <button value="4" name="4">4</button>
-                <button value="5" name="5">5</button>
-                <button value="6" name="6">6</button><br>
-                <button value="1" name="1">1</button>
-                <button value="2" name="2">2</button>
-                <button value="3" name="3">3</button>
-            </div>
-
-            <div class="misc">
-                <button value="0" name="0">0</button>
-                <button value="." name=".">.</button>
-                <button type="submit">=</button>
-            </div>
-            <div class="operations">
-                <button value="/" name="divide">/</button>
-                <button value="-" name="subtract">-</button>
-                <button value="*" name="multiply">x</button>
-                <button value="+" name="add">+</button>
-                <button type="reset">AC</button>
-            </div>
-
-
-        </form>
-    </div>
-
+        <span class="c1">
+            <button value="1" name="1">1</button>
+            <button value="2" name="2">2</button>
+            <button value="3" name="3">3</button>
+        </span>
+        <span class="c1">
+            <button value="0" name="0">0</button>
+            <button value="." name=".">.</button>
+        </span>
+        </span>
+        <button class="operation" type="reset">AC</button>
+        <button class="operation" value="/" name="divide">/</button>
+        <button class="operation" value="*" name="multiply">+</button>
+        <button type="submit">=</button>
+    </form>
+</div>
+    
 </body>
 
 </html>
