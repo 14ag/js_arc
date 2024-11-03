@@ -9,7 +9,7 @@
 <body>
     <script src="app.js"></script>
     <div id="calculator">
-        <div class="section" id="screen">
+        <div class="section" id="display">
             <input class="screen" value="" name=input type="text" rows="1">
             <input class="screen" value="" name=result type="text" rows="1">
         </div>
@@ -36,21 +36,21 @@
                     <button value="2" name="2">2</button>
                     <button value="3" name="3">3</button>
                 </span>
-                <span class="r">
-                    <button value="0" name="0">0</button>
-                    <button value="." name=".">.</button>
-                </span>
             </span>
-
+            
             <span class="c2">
                 <span class="r">
                     <button class="operation" id="ac" name="ac">AC</button>
                     <button class="operation" id="del" name="del">DEL</button>
                     <button class="operation" value="/" name="divide">/</button>
                     <button class="operation" value="*" name="multiply">+</button>
-                    <button class="operation" id="equals" name="equals">=</button>
                 </span>
             </span>
+        </div>
+        <div class="section r0">
+            <button value="0" name="0">0</button>
+            <button value="." name=".">.</button>
+            <button class="operation" id="equals" name="equals">=</button>
         </div>
     </div>
 
