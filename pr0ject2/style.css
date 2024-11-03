@@ -1,9 +1,57 @@
 /* this is a style sheet */
 * {
     font-size: xx-large;
+
 }
-.calculator{
-    height: 100%;
-    width: 100%;
-    justify
+
+body {
+    background-color: gray;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    height:;
+    
 }
+
+#screen {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    
+}
+.screen{
+    border: none;
+}
+
+
+button {
+    width: 90px;
+    height: 90px;
+    
+    
+}
+
+#calculator {
+    background-color: rgb(34, 34, 34);
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 70%;
+}
+
+#keys {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+
+.c1, 
+.c2>.r {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
+
+
+r {}

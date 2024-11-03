@@ -10,10 +10,11 @@
     <script src="app.js"></script>
     <div id="calculator">
         <div class="section" id="screen">
-            <input value="" name=result type="textarea" rows="2">
+            <input class="screen" value="" name=input type="text" rows="1">
+            <input class="screen" value="" name=result type="text" rows="1">
         </div>
         <div class="section" id="keys">
-            <span class="c">
+            <span class="c1">
                 <span class="r">
                     <button class="operation" value="-" name="subtract">-</button>
                     <button class="operation" value="+" name="add">+</button>
@@ -41,11 +42,14 @@
                 </span>
             </span>
 
-            <span class="c c2">
-                <button class="operation" id="clear" name="ac">AC</button>
-                <button class="operation" value="/" name="divide">/</button>
-                <button class="operation" value="*" name="multiply">+</button>
-                <button class="operation" id="equals" name="equals">=</button>
+            <span class="c2">
+                <span class="r">
+                    <button class="operation" id="ac" name="ac">AC</button>
+                    <button class="operation" id="del" name="del">DEL</button>
+                    <button class="operation" value="/" name="divide">/</button>
+                    <button class="operation" value="*" name="multiply">+</button>
+                    <button class="operation" id="equals" name="equals">=</button>
+                </span>
             </span>
         </div>
     </div>
