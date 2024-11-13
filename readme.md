@@ -2,10 +2,8 @@
 
 > *Elevating JavaScript Algorithms to an Art Form*
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Algorithm](https://img.shields.io/badge/Algorithm-blue?style=for-the-badge)
-![Search](https://img.shields.io/badge/Search-green?style=for-the-badge)
-![Sort](https://img.shields.io/badge/Sort-red?style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Algorithm](https://img.shields.io/badge/Algorithm-blue?style=for-the-badge) ![Search](https://img.shields.io/badge/Search-green?style=for-the-badge) ![Sort](https://img.shields.io/badge/Sort-red?style=for-the-badge)
+[![wakatime](https://wakatime.com/badge/user/4b172d19-eb8c-4d15-92a3-521426795cd4/project/92e21d18-008f-4810-980e-7ab32207dc9f.svg)](https://wakatime.com/badge/user/4b172d19-eb8c-4d15-92a3-521426795cd4/project/92e21d18-008f-4810-980e-7ab32207dc9f?style=style=for-the-badge)
 
 ---
 
