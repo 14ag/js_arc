@@ -1,13 +1,11 @@
-import { println } from "../utils";
 export function f_table(cols, values) {
-    // function divideArrayValues(cols, ...values) {
-    // it should receive table dimentions then data
-    let arrays = [];
+  // it should receive table dimentions then data
+  let arrays = [];
+  // 3d arrays??
     for (let i = 0; i < cols; i++) {
         arrays.push([]);
     }
     // use dimentions to divide the data into cols such that each array holds a row
-    // 3d arrays??
     for (let i = 0; i < values.length; i++) {
         //use modulo to make cols
         arrays[i % cols].push(values[i])
