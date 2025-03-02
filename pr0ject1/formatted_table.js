@@ -8,7 +8,8 @@ export function f_table(cols, values) {
     // use dimentions to divide the data into cols such that each array holds a row
     for (let i = 0; i < values.length; i++) {
         //use modulo to make cols
-        arrays[i % cols].push(values[i]);
+        arrays[i % cols].push(values[i])
+            ;
     }
     
     // Step 1: Find the maximum number of rows in any column (to handle columns with different lengths)

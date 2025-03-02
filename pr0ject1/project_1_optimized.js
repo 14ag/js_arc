@@ -31,11 +31,13 @@ for (let i = range_start; i < range_stop + 1; i++) {
   //display
   //println(row_entry(array_lenth) + "  " + row_entry(binary_representation) + "  " + row_entry(bit_count) + "  " + row_entry(comparisons_count))
   values.push(array_lenth, binary_representation, bit_count, comparisons_count)
+
 }
 
 function display() {// enable line 32 to use this
   println("array_length  bin_rep      number_of_bits  comparisons")
   println("------------  ------------  ------------  ------------")
+
 }
 
 f_table(4,values)
